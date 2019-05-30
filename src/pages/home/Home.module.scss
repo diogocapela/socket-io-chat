@@ -1,0 +1,35 @@
+@import '@styles/variables.scss';
+@import '@styles/medias.scss';
+
+.wrapper {
+
+}
+
+
+.hero {
+    min-height: 100vh;
+    background: #5C5C5C;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroLogo {
+    max-width: 100px;
+    animation: AppLogoSpin infinite 20s linear;
+    pointer-events: none;
+}
+
+@keyframes AppLogoSpin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+

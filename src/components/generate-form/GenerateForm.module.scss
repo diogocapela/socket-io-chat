@@ -1,0 +1,13 @@
+@import '@styles/variables.scss';
+@import '@styles/medias.scss';
+
+.wrapper {
+    max-width: 100%;
+    background: transparent;
+    margin: 1rem 2rem;
+}
+
+.fullWidth {
+    width: 100%;
+    display: block;
+}

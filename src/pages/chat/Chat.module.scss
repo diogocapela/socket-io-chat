@@ -1,0 +1,41 @@
+@import '@styles/variables.scss';
+@import '@styles/medias.scss';
+
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    bottom: calc(50px + 4rem);
+    left: 0;
+    right: 0;
+    background: #100e17;
+    color: white;
+    display: flex;
+}
+
+.aside {
+    border-right: 2px solid black;
+    padding: 1rem 1.5rem;
+    width: 300px;
+
+    z-index: 1;
+    box-shadow: 2px 0px 6px 1px rgba(0,0,0,0.75);
+}
+
+
+.chat {
+    width: calc(100vw - 300px);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0;
+    background: #5C5C5C;
+
+    position:relative;
+    overflow-y: scroll;
+    
+}
+
+.message {
+    margin-bottom: 0.75rem;
+}

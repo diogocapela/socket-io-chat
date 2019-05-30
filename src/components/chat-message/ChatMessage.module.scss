@@ -1,0 +1,46 @@
+@import '@styles/variables.scss';
+@import '@styles/medias.scss';
+
+.wrapper {
+    margin-bottom: 0.25rem;
+    background: rgba(0,0,0,0.15);
+    padding: 0.5rem;
+    line-height: 1.5;
+}
+
+.username,
+.timestamp,
+.content {
+
+}
+
+.username {
+    color: white;
+    background: tomato;
+    padding: 0.25rem;
+
+    margin: 0 0.5rem;
+
+    &:hover {
+        color: black;
+        background: lightgrey;
+    }
+}
+
+.username {
+    cursor: help;
+}
+
+.timestamp {
+    cursor: help;
+    color: lightgrey;
+
+    &:hover {
+        color: tomato;
+    }
+}
+
+.tooltip {
+    text-align: left;
+}
+

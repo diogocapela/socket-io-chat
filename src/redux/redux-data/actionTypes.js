@@ -1,0 +1,5 @@
+const NAME_SPACE = '@redux-data';
+
+export const LOAD_DATA_REQUEST = `${NAME_SPACE}/LOAD_DATA_REQUEST`;
+export const LOAD_DATA_SUCCESS = `${NAME_SPACE}/LOAD_DATA_SUCCESS`;
+export const LOAD_DATA_ERROR = `${NAME_SPACE}/LOAD_DATA_ERROR`;

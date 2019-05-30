@@ -1,0 +1,25 @@
+@import '@styles/variables.scss';
+@import '@styles/medias.scss';
+
+.wrapper {
+    max-width: 100%;
+    background: transparent;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    border: 0.1rem solid white;
+    color: white;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+        color: tomato;
+    }
+}
+
+.fullWidth {
+    width: 100%;
+    display: block;
+}
+
+.link {
+    border-radius: 0.25rem;
+}

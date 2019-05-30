@@ -1,0 +1,22 @@
+@import '@styles/variables.scss';
+@import '@styles/medias.scss';
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    cursor: help;
+    margin-bottom: 0.35rem;
+
+    &:hover {
+        color: lightgrey;
+    }
+}
+
+.content {
+    margin-left: 0.5rem;
+}
+
+.tooltip {
+    text-align: left;
+}
+

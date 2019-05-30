@@ -1,0 +1,67 @@
+@import '@styles/variables.scss';
+@import '@styles/medias.scss';
+
+
+.wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    width: 100%;
+
+    padding: 2rem;
+    height: calc(50px + 4rem);
+
+    background: #100e17;
+
+
+    border-top: 3px solid red;
+}
+
+.input,
+.button {
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-radius: 0;
+}
+
+.input {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    z-index: 1;
+    border-right: 1px solid black;
+
+    &:focus {
+        outline-offset: -2px;
+        outline-color: tomato;
+        outline-style: solid;
+        outline-width: 2px;
+    }
+}
+
+
+
+
+.button {
+    width: 25%;
+    max-width: 250px;
+    background: tomato;
+    transition: 0.1s all ease-in-out;
+    border-left: 1px solid black;
+    font-size: 1.25rem;
+    color: white;
+
+    &:focus {
+        outline-offset: -2px;
+        outline-color: tomato;
+        outline-style: solid;
+        outline-width: 2px;
+    }
+
+    &:hover {
+        background: white;
+        color: black;
+    }
+}

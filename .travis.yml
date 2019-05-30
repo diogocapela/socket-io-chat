@@ -1,0 +1,13 @@
+env:
+  - VERBOSE=true
+
+language: node_js
+
+node_js:
+  - "11.10.1"
+
+before_script:
+  - npm i
+
+script:
+  - npm run test

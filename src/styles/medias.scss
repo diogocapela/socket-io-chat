@@ -1,0 +1,20 @@
+
+/* medias
+
+In every module that you need media queries you need to import this:
+
+@import '@styles/medias.scss';
+
+@media ($layout-gte-tablet) {
+
+}
+
+============================================================================================ */
+
+$layout-mobile: 'max-width: 767px';
+$layout-tablet: 'min-width: 768px) and (max-width: 1099px';
+$layout-desktop: 'min-width: 1100px';
+
+$layout-gte-tablet: 'min-width: 768px';
+
+$layout-lte-tablet: 'max-width: 1099px';
