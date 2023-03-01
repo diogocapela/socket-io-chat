@@ -25,7 +25,7 @@
     "helmet": "3.18.0",
     "html-minifier": "4.0.0",
     "js-cookie": "2.2.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.21",
     "prop-types": "15.7.2",
     "razzle": "3.0.0",
     "razzle-heroku": "3.0.0",
